@@ -50,7 +50,7 @@ function App() {
 
         <LifelineFooter>
           <div className="flex w-full items-center justify-between">
-            <LifelineLegend legend={vietnamLifeline.legend} />
+            <LifelineLegend items={vietnamLifeline.legend} />
             <p className="hidden text-xs text-zinc-400 sm:block">Built with evilrabbit/lifeline</p>
           </div>
         </LifelineFooter>
