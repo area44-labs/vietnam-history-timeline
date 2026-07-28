@@ -1,8 +1,8 @@
 {
-  "name": "@area44/vite-workspace",
+  "name": "@area44/vietnam-history-timeline",
   "framework": "vite",
   "buildCommand": "vite build",
-  "outputDirectory": "dist",
+  "outputDirectory": "dist/client",
   "github": {
     "autoJobCancelation": true
   }
