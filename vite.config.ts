@@ -7,9 +7,11 @@ const base = process.env.BASE || "/";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base,
   plugins: [
     tanstackStart({
+      router: {
+        basepath: base,
+      },
       prerender: {
         enabled: true,
       },
