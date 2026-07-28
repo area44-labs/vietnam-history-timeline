@@ -6,7 +6,7 @@ import { defineLifeline } from "./lifeline-data";
  */
 export const vietnamLifeline = defineLifeline({
   slug: "vietnam",
-  name: "History of Vietnam",
+  name: "Vietnam History Timeline",
   birthYear: 1945,
   endYear: 2026,
   description:
@@ -105,8 +105,7 @@ export const vietnamLifeline = defineLifeline({
       id: "modern-vietnam",
       events: [
         {
-          text: "Today, Vietnam is one of Asia's fastest-growing economies, looking confidently towards a resilient and innovative future. 🇻🇳🎆",
-          effect: "fireworks",
+          text: "Today, Vietnam is one of Asia's fastest-growing economies, looking confidently towards a resilient and innovative future.",
         },
       ],
     },

@@ -32,7 +32,7 @@ function App() {
               rel="noopener noreferrer"
               className="text-sm text-zinc-500 transition-colors duration-300 hover:text-black dark:text-zinc-400 dark:hover:text-white"
             >
-              Built with lifeline
+              Built with Lifeline
             </a>
           </div>
         </LifelineNav>
