@@ -16,6 +16,8 @@ export default defineConfig({
     tanstackStart({
       router: {
         basepath: base,
+        quoteStyle: "double",
+        semicolons: true,
       },
       prerender: {
         enabled: true,
