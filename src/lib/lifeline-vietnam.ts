@@ -32,6 +32,7 @@ export const vietnamLifeline = defineLifeline({
           name: "Ho Chi Minh",
           role: "President",
           color: "#DA251D",
+          photo: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ho_Chi_Minh_1946.jpg",
         },
       ],
     },
@@ -51,6 +52,7 @@ export const vietnamLifeline = defineLifeline({
           name: "Vo Nguyen Giap",
           role: "General",
           color: "#DA251D",
+          photo: "https://upload.wikimedia.org/wikipedia/commons/0/07/Vo_Nguyen_Giap2.jpg",
         },
       ],
     },
@@ -86,6 +88,8 @@ export const vietnamLifeline = defineLifeline({
       met: [
         {
           name: "ASEAN",
+          photo:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Infobox_ASEAN_flag.svg/320px-Infobox_ASEAN_flag.svg.png",
         },
       ],
     },

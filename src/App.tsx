@@ -43,6 +43,7 @@ function App() {
             birthYear={vietnamLifeline.birthYear}
             title={vietnamLifeline.name}
             className="h-full"
+            showAge={false}
           />
         </LifelineStage>
 

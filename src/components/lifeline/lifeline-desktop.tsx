@@ -21,6 +21,7 @@ export function LifelineDesktop({
   className,
   title = "Lifeline",
   mode = "auto",
+  showAge = true,
 }: LifelineProps) {
   const widths = useMemo(
     () => markers.map((marker, index) => getMarkerWidth(marker, markers[index + 1]?.year)),
@@ -119,7 +120,12 @@ export function LifelineDesktop({
         >
           <div
             ref={trackRef}
-            className="relative flex w-max items-start will-change-transform [--lifeline-people-top:calc(14.5rem+40px)] [--lifeline-rail:5rem]"
+            className={cn(
+              "relative flex w-max items-start will-change-transform",
+              showAge
+                ? "[--lifeline-people-top:calc(14.5rem+40px)] [--lifeline-rail:5rem]"
+                : "[--lifeline-people-top:calc(12.25rem+40px)] [--lifeline-rail:2.75rem]",
+            )}
             style={{ width: trackWidth }}
           >
             {/*
@@ -142,7 +148,7 @@ export function LifelineDesktop({
               style={{ width: LIFELINE_STICKY_SHIELD_WIDTH }}
             >
               <div className={cn(showIntro && "lifeline-labels-intro")}>
-                <LifelineStickyLabels />
+                <LifelineStickyLabels showAge={showAge} />
               </div>
             </div>
 
@@ -170,6 +176,7 @@ export function LifelineDesktop({
                     animateIntro={showIntro}
                     introDelay={intro.getMarkerDelay(index)}
                     introDuration={intro.getMarkerFadeDuration(index)}
+                    showAge={showAge}
                   />
                 ))}
               </div>

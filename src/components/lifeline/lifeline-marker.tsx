@@ -23,11 +23,20 @@ interface LifelineMarkerColumnProps {
   animateIntro?: boolean;
   introDelay?: number;
   introDuration?: number;
+  showAge?: boolean;
 }
 
 export const LifelineMarkerColumn = forwardRef<HTMLDivElement, LifelineMarkerColumnProps>(
   function LifelineMarkerColumn(
-    { marker, birthYear, minWidth, animateIntro = false, introDelay = 0, introDuration = 420 },
+    {
+      marker,
+      birthYear,
+      minWidth,
+      animateIntro = false,
+      introDelay = 0,
+      introDuration = 420,
+      showAge = true,
+    },
     ref,
   ) {
     const age = marker.age ?? marker.year - birthYear;
@@ -59,9 +68,11 @@ export const LifelineMarkerColumn = forwardRef<HTMLDivElement, LifelineMarkerCol
           />
 
           <div className="flex w-full flex-col items-start text-left">
-            <p className="mb-5 h-4 text-[11px] leading-4 font-medium text-zinc-500 tabular-nums transition-colors duration-300 group-hover:text-black dark:text-zinc-600 dark:group-hover:text-zinc-400">
-              {age}
-            </p>
+            {showAge && (
+              <p className="mb-5 h-4 text-[11px] leading-4 font-medium text-zinc-500 tabular-nums transition-colors duration-300 group-hover:text-black dark:text-zinc-600 dark:group-hover:text-zinc-400">
+                {age}
+              </p>
+            )}
 
             <p className="mb-6 h-5 text-[15px] leading-5 font-medium whitespace-nowrap text-zinc-500 tabular-nums transition-colors duration-300 group-hover:text-black dark:group-hover:text-white">
               {marker.label ?? marker.year}
