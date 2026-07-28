@@ -38,19 +38,19 @@ function App() {
         </LifelineStage>
 
         <LifelineFooter>
-          <div className="flex w-full items-center justify-between">
+          <div className="flex w-full items-center justify-between gap-4 text-xs">
             <LifelineLegend items={vietnamLifeline.legend} />
-            <div className="hidden items-center gap-4 sm:flex">
+            <div className="flex items-center gap-3">
               <a
                 href="https://github.com/evilrabbit/lifeline"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-zinc-650 text-xs text-zinc-400 dark:hover:text-zinc-200"
+                className="text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-100"
               >
                 GitHub
               </a>
-              <span className="text-zinc-300 dark:text-zinc-800">|</span>
-              <p className="text-xs text-zinc-400">Built with evilrabbit/lifeline</p>
+              <span className="hidden text-zinc-300 sm:inline dark:text-zinc-800">|</span>
+              <p className="hidden text-zinc-400 sm:block">Built with evilrabbit/lifeline</p>
             </div>
           </div>
         </LifelineFooter>
