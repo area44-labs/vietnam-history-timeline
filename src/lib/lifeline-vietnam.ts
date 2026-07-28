@@ -75,7 +75,7 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "The 6th National Congress of the CPV officially launched the Doi Moi reforms, paving the way for economic liberalization and global integration.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/0/00/Khu_trung_t%C3%A2m_th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh%2C_nh%C3%ACn_t%E1%BB%AB_ph%C3%ADa_qu%E1%BA%ADn_2.JPG",
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Ho_Chi_Minh_City_Skyline_%28night%29.jpg/500px-Ho_Chi_Minh_City_Skyline_%28night%29.jpg",
             alt: "Rapid modernization of Ho Chi Minh City following Doi Moi reforms",
           },
         },
