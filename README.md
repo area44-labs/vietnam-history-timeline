@@ -4,21 +4,6 @@ A chronological journey through modern Vietnam - from its independence declarati
 
 Built with the beautiful and highly interactive **evilrabbit/lifeline** component layout.
 
-## Tech Stack
-
-- **React 19**
-- **Vite** with native tsconfig paths resolution (`tsconfigPaths: true`)
-- **Tailwind CSS v4**
-- **Base UI** and **Base UI Components**
-- **Lucide React**
-
-## Features
-
-- **Responsive layouts:** Automatically scales from a horizontal scrubbed-scroller on desktop to a elegant vertical scroller on mobile.
-- **Leaders & Normalization highlights:** Visual indicators, portraits, and hover cards for important historical figures and events.
-- **Theme switcher:** Supports seamless Light, Dark, and System mode switches.
-- **Fireworks effect:** Dynamic interactive fireworks animation triggers on key milestone points.
-
 ## Development
 
 Install dependencies:
