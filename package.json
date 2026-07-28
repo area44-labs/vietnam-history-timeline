@@ -1,5 +1,5 @@
 {
-  "name": "@area44/history-of-vietnam",
+  "name": "@area44/vietnam-history-timeline",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -12,6 +12,8 @@
     "check": "oxlint && oxfmt"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.0.4",
     "clsx": "^2.1.1",

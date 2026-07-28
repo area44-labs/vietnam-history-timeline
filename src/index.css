@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+:root {
+  --font-geist-sans: "Geist Variable", "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-geist-mono:
+    "Geist Mono Variable", "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    monospace;
+  font-family: var(--font-sans);
+}
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
 @variant dark (&:where(.dark, .dark *));
 
 /* Lifeline Animations & Keyframes */
