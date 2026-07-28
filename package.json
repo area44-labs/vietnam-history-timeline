@@ -12,8 +12,6 @@
     "check": "oxlint && oxfmt"
   },
   "dependencies": {
-    "@base-ui-components/react": "1.0.0-rc.0",
-    "@base-ui/react": "^1.6.0",
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.0.4",
     "clsx": "^2.1.1",

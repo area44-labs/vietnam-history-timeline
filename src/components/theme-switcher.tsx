@@ -1,6 +1,5 @@
 "use client";
 
-import { Toggle } from "@base-ui/react";
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -23,9 +22,9 @@ export function ThemeSwitcher() {
   const isDark = resolvedTheme === "dark";
 
   return (
-    <Toggle
-      checked={isDark}
-      onChange={(checked) => setTheme(checked ? "dark" : "light")}
+    <button
+      type="button"
+      onClick={() => setTheme(isDark ? "light" : "dark")}
       aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
       className={cn(
         "inline-flex cursor-pointer items-center p-0 text-zinc-500 transition-colors duration-300 hover:text-black dark:hover:text-white",
@@ -36,6 +35,6 @@ export function ThemeSwitcher() {
       ) : (
         <Moon className="h-4 w-4" strokeWidth={1.75} />
       )}
-    </Toggle>
+    </button>
   );
 }
