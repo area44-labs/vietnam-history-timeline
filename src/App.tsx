@@ -18,7 +18,9 @@ function App() {
         <LifelineNav
           logo={
             <div className="flex items-center">
-              <span className="text-xl">🇻🇳</span>
+              <span className="font-mono text-sm font-extrabold tracking-tight select-none sm:text-base">
+                VN
+              </span>
             </div>
           }
           logoHref="#"
