@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 /* Lifeline Animations & Keyframes */
 @keyframes lifeline-rail-draw {
   from {
