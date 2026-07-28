@@ -1,4 +1,3 @@
-import { CopyCommand } from "./components/copy-command";
 import {
   LifelineFooter,
   LifelineNav,
@@ -52,9 +51,6 @@ function App() {
             <div className="flex items-center gap-6">
               <ThemeSwitcher />
               <LifelineLegend items={vietnamLifeline.legend} />
-            </div>
-            <div className="hidden sm:block">
-              <CopyCommand command="npx shadcn add evilrabbit/lifeline/personal" />
             </div>
           </div>
         </LifelineFooter>
