@@ -32,8 +32,7 @@ export const vietnamLifeline = defineLifeline({
           name: "Ho Chi Minh",
           role: "President",
           color: "#DA251D",
-          photo:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg/500px-Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg",
+          photo: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ho_Chi_Minh_1946.jpg",
         },
       ],
     },
@@ -63,7 +62,7 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "The Great Spring Victory of April 30 marked the end of the Vietnam War and initiated the historic reunification of North and South Vietnam.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg/500px-Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg",
+            src: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ho_Chi_Minh_1946.jpg",
             alt: "President Ho Chi Minh who led the independence movement",
           },
         },
@@ -75,7 +74,7 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "The 6th National Congress of the CPV officially launched the Doi Moi reforms, paving the way for economic liberalization and global integration.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Ho_Chi_Minh_City_Skyline_%28night%29.jpg/500px-Ho_Chi_Minh_City_Skyline_%28night%29.jpg",
+            src: "https://upload.wikimedia.org/wikipedia/commons/0/00/Khu_trung_t%C3%A2m_th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh%2C_nh%C3%ACn_t%E1%BB%AB_ph%C3%ADa_qu%E1%BA%ADn_2.JPG",
             alt: "Rapid modernization of Ho Chi Minh City following Doi Moi reforms",
           },
         },
@@ -104,6 +103,19 @@ export const vietnamLifeline = defineLifeline({
       id: "asean-chair",
       events: [
         "Vietnam successfully served as the ASEAN Chair and a non-permanent member of the United Nations Security Council.",
+      ],
+    },
+    2025: {
+      id: "hanoi-2025",
+      events: [
+        "Hanoi, the capital of Vietnam, is a gorgeous blend of rich ancient culture, iconic heritage landmarks, and dynamic modern developments.",
+      ],
+      photos: [
+        {
+          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hanoi_at_night.jpg/500px-Hanoi_at_night.jpg",
+          alt: "Hanoi Turtle Tower at Night",
+          width: 240,
+        },
       ],
     },
     2026: {
