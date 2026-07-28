@@ -22,7 +22,7 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "President Ho Chi Minh declared Vietnam's Independence in Ba Dinh Square, Hanoi, establishing the Democratic Republic of Vietnam.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Declaration_of_independence_of_Vietnam_in_Ba_Dinh_Square.png",
+            src: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ba_Dinh_Square_September_2nd,_1945.jpg",
             alt: "Ho Chi Minh reading the Declaration of Independence",
           },
         },
@@ -41,7 +41,7 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "The Battle of Dien Bien Phu ended with a decisive Vietnamese victory, concluding the First Indochina War and leading to the Geneva Accords.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/5/52/Victory_at_Dien_Bien_Phu_1954.png",
+            src: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Victory_in_Battle_of_Dien_Bien_Phu.jpg",
             alt: "Victory flag raised at Dien Bien Phu",
           },
         },
@@ -60,8 +60,8 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "The Great Spring Victory of April 30 marked the end of the Vietnam War and initiated the historic reunification of North and South Vietnam.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Reunification_Express_train.jpg",
-            alt: "Reunification of Vietnam",
+            src: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ho_Chi_Minh_1946.jpg",
+            alt: "President Ho Chi Minh who led the independence movement",
           },
         },
       ],
@@ -72,8 +72,8 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "The 6th National Congress of the CPV officially launched the Doi Moi reforms, paving the way for economic liberalization and global integration.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Doi_Moi_period_exhibit_at_Vietnam_Museum_of_Ethnology.jpg",
-            alt: "Doi Moi reform period exhibit",
+            src: "https://upload.wikimedia.org/wikipedia/commons/0/00/Khu_trung_t%C3%A2m_th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh%2C_nh%C3%ACn_t%E1%BB%AB_ph%C3%ADa_qu%E1%BA%ADn_2.JPG",
+            alt: "Rapid modernization of Ho Chi Minh City following Doi Moi reforms",
           },
         },
       ],
