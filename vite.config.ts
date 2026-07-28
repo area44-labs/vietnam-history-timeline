@@ -1,4 +1,5 @@
 import tailwindcss from "@tailwindcss/vite";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
@@ -7,7 +8,15 @@ const base = process.env.BASE || "/";
 // https://vite.dev/config/
 export default defineConfig({
   base,
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    tanstackStart({
+      prerender: {
+        enabled: true,
+      },
+    }),
+    react(),
+    tailwindcss(),
+  ],
   resolve: {
     tsconfigPaths: true,
   },
