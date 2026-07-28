@@ -28,7 +28,7 @@ export const Route = createRootRoute({
         content:
           "A chronological journey through modern Vietnam - from independence declaration to a dynamic thriving nation.",
       },
-      { property: "og:image", content: "/og-image.png" },
+      { property: "og:image", content: `${import.meta.env.BASE_URL}og-image.png` },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Vietnam History Timeline" },
@@ -37,9 +37,9 @@ export const Route = createRootRoute({
         content:
           "A chronological journey through modern Vietnam - from independence declaration to a dynamic thriving nation.",
       },
-      { name: "twitter:image", content: "/og-image.png" },
+      { name: "twitter:image", content: `${import.meta.env.BASE_URL}og-image.png` },
     ],
-    links: [{ rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
+    links: [{ rel: "icon", type: "image/svg+xml", href: `${import.meta.env.BASE_URL}logo.svg` }],
   }),
   component: RootComponent,
 });
