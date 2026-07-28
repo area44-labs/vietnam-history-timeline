@@ -105,4 +105,5 @@ export interface LifelineProps {
   className?: string;
   title?: string;
   mode?: LifelineMode;
+  showAge?: boolean;
 }

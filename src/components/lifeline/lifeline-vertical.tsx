@@ -155,6 +155,7 @@ const LifelineVerticalEntry = forwardRef<
     introDelay?: number;
     introDuration?: number;
     revealPending?: boolean;
+    showAge?: boolean;
   }
 >(function LifelineVerticalEntry(
   {
@@ -164,6 +165,7 @@ const LifelineVerticalEntry = forwardRef<
     introDelay = 0,
     introDuration = 420,
     revealPending = false,
+    showAge = true,
   },
   ref,
 ) {
@@ -204,9 +206,13 @@ const LifelineVerticalEntry = forwardRef<
         }}
       >
         <div className={`${GRID_CLASS} items-center`}>
-          <p className="text-right text-[11px] leading-4 font-medium text-zinc-500 tabular-nums transition-colors duration-300 dark:text-zinc-600">
-            {age}
-          </p>
+          {showAge ? (
+            <p className="text-right text-[11px] leading-4 font-medium text-zinc-500 tabular-nums transition-colors duration-300 dark:text-zinc-600">
+              {age}
+            </p>
+          ) : (
+            <div aria-hidden="true" />
+          )}
 
           <div className="flex items-center justify-center">
             <RailTick />
@@ -288,6 +294,7 @@ export function LifelineVertical({
   birthYear,
   title = "Lifeline",
   mode = "auto",
+  showAge = true,
 }: LifelineProps) {
   // Only an explicit `mode` embeds the vertical layout. `"auto"` measures
   // scrollability on desktop, but the mobile layout *is* a vertical
@@ -415,9 +422,13 @@ export function LifelineVertical({
       style={showIntro ? introStyle : undefined}
     >
       <div className={cn(`${GRID_CLASS} mb-6 items-end`, showIntro && "lifeline-labels-intro")}>
-        <p className="text-right text-[11px] leading-4 font-medium tracking-[0.08em] text-zinc-500 uppercase transition-colors duration-300 dark:text-zinc-600">
-          Age
-        </p>
+        {showAge ? (
+          <p className="text-right text-[11px] leading-4 font-medium tracking-[0.08em] text-zinc-500 uppercase transition-colors duration-300 dark:text-zinc-600">
+            Age
+          </p>
+        ) : (
+          <div aria-hidden="true" />
+        )}
         <div aria-hidden="true" />
         <p className="text-[11px] leading-5 font-medium tracking-[0.08em] text-zinc-500 uppercase transition-colors duration-300 dark:text-zinc-600">
           Years
@@ -449,6 +460,7 @@ export function LifelineVertical({
               revealPending={showIntro && revealOnScroll}
               introDelay={intro.getMarkerDelay(index)}
               introDuration={intro.getMarkerFadeDuration(index)}
+              showAge={showAge}
             />
           ))}
         </ol>

@@ -32,6 +32,7 @@ export const vietnamLifeline = defineLifeline({
           name: "Ho Chi Minh",
           role: "President",
           color: "#DA251D",
+          photo: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ho_Chi_Minh_1946.jpg",
         },
       ],
     },
@@ -51,6 +52,7 @@ export const vietnamLifeline = defineLifeline({
           name: "Vo Nguyen Giap",
           role: "General",
           color: "#DA251D",
+          photo: "https://upload.wikimedia.org/wikipedia/commons/0/07/Vo_Nguyen_Giap2.jpg",
         },
       ],
     },
@@ -86,6 +88,8 @@ export const vietnamLifeline = defineLifeline({
       met: [
         {
           name: "ASEAN",
+          photo:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Infobox_ASEAN_flag.svg/330px-Infobox_ASEAN_flag.svg.png",
         },
       ],
     },
@@ -99,6 +103,19 @@ export const vietnamLifeline = defineLifeline({
       id: "asean-chair",
       events: [
         "Vietnam successfully served as the ASEAN Chair and a non-permanent member of the United Nations Security Council.",
+      ],
+    },
+    2025: {
+      id: "hanoi-2025",
+      events: [
+        "Hanoi, the capital of Vietnam, is a gorgeous blend of rich ancient culture, iconic heritage landmarks, and dynamic modern developments.",
+      ],
+      photos: [
+        {
+          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hanoi_at_night.jpg/500px-Hanoi_at_night.jpg",
+          alt: "Hanoi Turtle Tower at Night",
+          width: 240,
+        },
       ],
     },
     2026: {
