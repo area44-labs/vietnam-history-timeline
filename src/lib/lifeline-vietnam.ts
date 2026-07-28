@@ -32,7 +32,8 @@ export const vietnamLifeline = defineLifeline({
           name: "Ho Chi Minh",
           role: "President",
           color: "#DA251D",
-          photo: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ho_Chi_Minh_1946.jpg",
+          photo:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg/500px-Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg",
         },
       ],
     },
@@ -62,7 +63,7 @@ export const vietnamLifeline = defineLifeline({
         {
           text: "The Great Spring Victory of April 30 marked the end of the Vietnam War and initiated the historic reunification of North and South Vietnam.",
           image: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ho_Chi_Minh_1946.jpg",
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg/500px-Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg",
             alt: "President Ho Chi Minh who led the independence movement",
           },
         },
@@ -89,7 +90,7 @@ export const vietnamLifeline = defineLifeline({
         {
           name: "ASEAN",
           photo:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Infobox_ASEAN_flag.svg/320px-Infobox_ASEAN_flag.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Infobox_ASEAN_flag.svg/330px-Infobox_ASEAN_flag.svg.png",
         },
       ],
     },
