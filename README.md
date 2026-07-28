@@ -1,17 +1,28 @@
-# Vite Workspace
+# History of Vietnam Timeline
 
-This template provides a minimal setup to get **React**, **Tailwind CSS** working with **Vite**.
+A chronological journey through modern Vietnam - from its independence declaration in 1945 to a dynamic, thriving nation in 2026.
+
+Built with the beautiful and highly interactive **evilrabbit/lifeline** component layout.
 
 ## Development
 
+Install dependencies:
+
 ```bash
-git clone https://github.com/area44/vite-workspace
-cd vite-workspace
 pnpm install
+```
+
+Run local development server:
+
+```bash
 pnpm dev
 ```
 
-Open your web browser and navigate to http://localhost:5173.
+Build for production:
+
+```bash
+pnpm build
+```
 
 ## License
 

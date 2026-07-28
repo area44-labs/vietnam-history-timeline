@@ -1,5 +1,5 @@
 {
-  "name": "@area44/vite-workspace",
+  "name": "@area44/history-of-vietnam",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -14,8 +14,11 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.0.4",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.27.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "tailwind-merge": "^3.6.0",
     "tailwindcss": "^4.3.3",
     "vite": "^8.1.5"
   },
