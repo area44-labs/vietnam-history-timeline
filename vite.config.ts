@@ -10,9 +10,6 @@ export default defineConfig({
   base,
   plugins: [
     tanstackStart({
-      router: {
-        basepath: base,
-      },
       prerender: {
         enabled: true,
       },
